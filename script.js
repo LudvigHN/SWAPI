@@ -32,18 +32,7 @@ fetch("https://swapi.dev/api/people")
                         
                     })
                 
-                // person.films.forEach(film => {
-                //     fetch(film)
-                //     .then(response => {
-                //         return response.json()
-                        
-                //     })
-                //     .then(data=>{
-                //         listItem.textContent += data.title + ", "
-                        
-                //     })
-                    
-                // })
+               
                 
                 
                 listDOM.append(listItem)
